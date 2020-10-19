@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +9,109 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.App-header {
+  background: #7749F6;
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #7D6EA7;
+  text-indent: 1rem;
+  margin: 0;
+}
+
+.main-grid {
+  padding: 1rem 2rem;
+  grid-template-columns: 300px 4fr;
+  grid-template-rows: repeat(10,10%);
+  gap: 2rem;
+}
+
+.purple {
+  color: #D5CDEB;
+}
+
+.label {
+  text-indent: 1rem;
+}
+
+.purple-strong {
+  color: #7D6EA7;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='rgb(213,205,235)' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 94%;
+  background-position-y: 5px;
+}
+
+.submit {
+  background: #7749F6;
+  border: 1px solid #707070;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(119,73,246,1);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(119,73,246,1);
+  box-shadow: 0px 0px 5px 2px rgba(119,73,246,1);
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.placeholder,::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #D8D5E2 !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #D8D5E2;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #D8D5E2;
+}
+
+#content {
+  background: #F7F7FF;
+}
+
+.low {
+  background-color: #00CBDB;
+}
+
+.med {
+  background-color: #F2C70C;
+}
+
+.high {
+  background-color: #FF6268;
+}
+
+.mag {
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 1.3rem;
+}
+
+#sidebar .simpo-border {
+  border-bottom: 1px solid #D5CDEB;
+  padding-bottom: 1rem;
+  margin: 1.25rem 0;
+  width: 300px;
+}
+
+.table {
+  background: #FFFFFF;
+  width: 100%;
+}
+
+.table table tr:nth-child(even){background-color: #FAFAFF;}
